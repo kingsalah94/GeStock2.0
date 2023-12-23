@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PageLoginComponent } from './Pages/page-login/page-login.component';
 import { PageInscriptionComponent } from './Pages/page-inscription/page-inscription.component';
 import { PageDashboardComponent } from './Pages/page-dashboard/page-dashboard.component';
+import { PageStatistiqueComponent } from './Pages/page-statistique/page-statistique.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageLoginComponent,
     PageInscriptionComponent,
-    PageDashboardComponent
+    PageDashboardComponent,
+    PageStatistiqueComponent
   ],
   imports: [
     BrowserModule,
