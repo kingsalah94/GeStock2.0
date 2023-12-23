@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { PageLoginComponent } from './Pages/page-login/page-login.component';
 import { PageInscriptionComponent } from './Pages/page-inscription/page-inscription.component';
 import { PageDashboardComponent } from './Pages/page-dashboard/page-dashboard.component';
+import { FooterComponent } from './Composants/footer/footer.component';
+import { HeaderComponent } from './Composants/header/header.component';
 
 
 
@@ -15,6 +17,8 @@ import { PageDashboardComponent } from './Pages/page-dashboard/page-dashboard.co
     PageLoginComponent,
     PageInscriptionComponent,
     PageDashboardComponent,
+    FooterComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
