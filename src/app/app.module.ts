@@ -7,6 +7,9 @@ import { PageLoginComponent } from './Pages/page-login/page-login.component';
 import { PageInscriptionComponent } from './Pages/page-inscription/page-inscription.component';
 import { PageDashboardComponent } from './Pages/page-dashboard/page-dashboard.component';
 import { PageStatistiqueComponent } from './Pages/page-statistique/page-statistique.component';
+import { MenuComponent } from './Composants/menu/menu.component';
+import { HeaderComponent } from './Composants/header/header.component';
+import { FooterComponent } from './Composants/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { PageStatistiqueComponent } from './Pages/page-statistique/page-statisti
     PageLoginComponent,
     PageInscriptionComponent,
     PageDashboardComponent,
-    PageStatistiqueComponent
+    PageStatistiqueComponent,
+    MenuComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
