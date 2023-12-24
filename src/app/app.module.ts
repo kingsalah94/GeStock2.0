@@ -9,6 +9,7 @@ import { PageDashboardComponent } from './Pages/page-dashboard/page-dashboard.co
 import { FooterComponent } from './Composants/footer/footer.component';
 import { HeaderComponent } from './Composants/header/header.component';
 import { MenuComponent } from './Composants/menu/menu.component';
+import { PageArticlesComponent } from './Pages/Articles/page-articles/page-articles.component';
 
 
 
@@ -21,6 +22,7 @@ import { MenuComponent } from './Composants/menu/menu.component';
     MenuComponent,
     FooterComponent,
     HeaderComponent,
+    PageArticlesComponent,
   ],
   imports: [
     BrowserModule,
