@@ -8,6 +8,7 @@ import { PageInscriptionComponent } from './Pages/page-inscription/page-inscript
 import { PageDashboardComponent } from './Pages/page-dashboard/page-dashboard.component';
 import { FooterComponent } from './Composants/footer/footer.component';
 import { HeaderComponent } from './Composants/header/header.component';
+import { MenuComponent } from './Composants/menu/menu.component';
 
 
 
@@ -17,6 +18,7 @@ import { HeaderComponent } from './Composants/header/header.component';
     PageLoginComponent,
     PageInscriptionComponent,
     PageDashboardComponent,
+    MenuComponent,
     FooterComponent,
     HeaderComponent,
   ],

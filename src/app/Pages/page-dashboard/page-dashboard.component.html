@@ -1,23 +1,25 @@
 <div class="main-container">
     <div class="row min-height-800 no-flex-wrap">
         <div class="card col-md-2 me-2">
-            <div class="col">
-                <h3>Gestion de Stock V2.0</h3>
+            <div class="text-center">
+                <h4>Gestion de Stock V2.0</h4>
+            </div>
+            <div class="justify-content-between h-75">
+                <app-menu></app-menu>
             </div>
         </div>
          <div class="card col-md-10 pe-0 ps-0 background-grey border-none">
             <div class="col ps-0 pe-0 d-flex flex-column justify-content-between">
                 <div class="card min-height-80 mb-2">
-                    header
+                    <app-header></app-header>
                 </div>
                 <div class="card min-height-650 mb-2">
-                    Main Content
+                    <router-outlet></router-outlet>
                 </div>
                 <div class="card min-height-80">
-                    footer
+                    <app-footer></app-footer>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<router-outlet></router-outlet>
