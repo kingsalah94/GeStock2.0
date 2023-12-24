@@ -11,6 +11,8 @@ import { HeaderComponent } from './Composants/header/header.component';
 import { MenuComponent } from './Composants/menu/menu.component';
 import { PageArticlesComponent } from './Pages/Articles/page-articles/page-articles.component';
 import { DetailsArticlesComponent } from './Composants/details-articles/details-articles.component';
+import { PaginationComponent } from './Composants/pagination/pagination.component';
+import { BoutonActionComponent } from './Composants/bouton-action/bouton-action.component';
 
 
 
@@ -25,6 +27,8 @@ import { DetailsArticlesComponent } from './Composants/details-articles/details-
     HeaderComponent,
     PageArticlesComponent,
     DetailsArticlesComponent,
+    PaginationComponent,
+    BoutonActionComponent,
   ],
   imports: [
     BrowserModule,
