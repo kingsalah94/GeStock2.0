@@ -16,3 +16,16 @@ body{
 .min-height-650{
     min-height: 650px;
 }
+
+.border-right{
+    border-right: 2px #9ca1a6 solid;
+}
+
+.custom-border{
+    border: #9ca1a6 solid;
+    border-radius: 5px;
+}
+
+.blue-color{
+  color: #037bfd;  
+}
