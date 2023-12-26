@@ -5,6 +5,8 @@ import { PageInscriptionComponent } from './Pages/page-inscription/page-inscript
 import { PageDashboardComponent } from './Pages/page-dashboard/page-dashboard.component';
 import { PageStatistiqueComponent } from './Pages/page-statistique/page-statistique.component';
 import { PageArticlesComponent } from './Pages/Articles/page-articles/page-articles.component';
+import { NouvelleArticleComponent } from './Pages/Articles/nouvelle-article/nouvelle-article.component';
+import { PageMouvementDeStockComponent } from './Pages/MouvementDeStock/page-mouvement-de-stock/page-mouvement-de-stock.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
       {
         path: 'articles',
         component: PageArticlesComponent
+      },
+      {
+        path: 'nouvellarticles',
+        component: NouvelleArticleComponent
+      },
+      {
+        path: 'mouvementDeStock',
+        component: PageMouvementDeStockComponent
       }
     ]
   }

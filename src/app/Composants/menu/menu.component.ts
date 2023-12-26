@@ -46,9 +46,9 @@ export class MenuComponent implements OnInit {
       },
       {
       id:'22',
-      titre:'Mouvement de Stock',
+      titre:'MouvementdeStock',
       icon:'fab fa-stack-overflow',
-      url:'',
+      url:'mouvementDeStock',
       },
     ]
   },
