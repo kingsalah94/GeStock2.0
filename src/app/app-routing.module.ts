@@ -7,6 +7,8 @@ import { PageStatistiqueComponent } from './Pages/page-statistique/page-statisti
 import { PageArticlesComponent } from './Pages/Articles/page-articles/page-articles.component';
 import { NouvelleArticleComponent } from './Pages/Articles/nouvelle-article/nouvelle-article.component';
 import { PageMouvementDeStockComponent } from './Pages/MouvementDeStock/page-mouvement-de-stock/page-mouvement-de-stock.component';
+import { PageClientComponent } from './Pages/Clients/page-client/page-client.component';
+import { PageFounisseurComponent } from './Pages/Fournisseurs/page-founisseur/page-founisseur.component';
 
 const routes: Routes = [
   {
@@ -36,6 +38,14 @@ const routes: Routes = [
       {
         path: 'mouvementDeStock',
         component: PageMouvementDeStockComponent
+      },
+      {
+        path: 'client',
+        component: PageClientComponent
+      },
+      {
+        path: 'fournisseur',
+        component: PageFounisseurComponent
       }
     ]
   }

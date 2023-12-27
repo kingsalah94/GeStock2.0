@@ -17,6 +17,9 @@ import { NouvelleArticleComponent } from './Pages/Articles/nouvelle-article/nouv
 import { PageMouvementDeStockComponent } from './Pages/MouvementDeStock/page-mouvement-de-stock/page-mouvement-de-stock.component';
 import { DetailsMouvementDeSotckArticleComponent } from './Composants/details-mouvement-de-sotck-article/details-mouvement-de-sotck-article.component';
 import { DetailsMouvementDeSotckComponent } from './Composants/details-mouvement-de-sotck/details-mouvement-de-sotck.component';
+import { DetailsClientFournisseurComponent } from './Composants/details-client-fournisseur/details-client-fournisseur.component';
+import { PageClientComponent } from './Pages/Clients/page-client/page-client.component';
+import { PageFounisseurComponent } from './Pages/Fournisseurs/page-founisseur/page-founisseur.component';
 
 
 
@@ -37,6 +40,9 @@ import { DetailsMouvementDeSotckComponent } from './Composants/details-mouvement
     PageMouvementDeStockComponent,
     DetailsMouvementDeSotckArticleComponent,
     DetailsMouvementDeSotckComponent,
+    DetailsClientFournisseurComponent,
+    PageClientComponent,
+    PageFounisseurComponent,
   ],
   imports: [
     BrowserModule,
