@@ -22,6 +22,8 @@ import { PageClientComponent } from './Pages/Clients/page-client/page-client.com
 import { PageFounisseurComponent } from './Pages/Fournisseurs/page-founisseur/page-founisseur.component';
 import { NouveauClientFournisseurComponent } from './Composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
 import { DetailsCommandClientFournisseurComponent } from './Composants/details-command-client-fournisseur/details-command-client-fournisseur.component';
+import { DetailsCommandeComponent } from './Composants/details-commande/details-commande.component';
+import { PageCommandeClientFounisseurComponent } from './Pages/MouvementDeStock/page-commande-client-founisseur/page-commande-client-founisseur.component';
 
 
 
@@ -47,6 +49,8 @@ import { DetailsCommandClientFournisseurComponent } from './Composants/details-c
     PageFounisseurComponent,
     NouveauClientFournisseurComponent,
     DetailsCommandClientFournisseurComponent,
+    DetailsCommandeComponent,
+    PageCommandeClientFounisseurComponent,
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,7 @@ import { PageMouvementDeStockComponent } from './Pages/MouvementDeStock/page-mou
 import { PageClientComponent } from './Pages/Clients/page-client/page-client.component';
 import { PageFounisseurComponent } from './Pages/Fournisseurs/page-founisseur/page-founisseur.component';
 import { NouveauClientFournisseurComponent } from './Composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
+import { PageCommandeClientFounisseurComponent } from './Pages/MouvementDeStock/page-commande-client-founisseur/page-commande-client-founisseur.component';
 
 const routes: Routes = [
   {
@@ -49,12 +50,20 @@ const routes: Routes = [
         component: NouveauClientFournisseurComponent
       },
       {
+        path: 'commandClient',
+        component: PageCommandeClientFounisseurComponent
+      },
+      {
         path: 'fournisseur',
         component: PageFounisseurComponent
       },
       {
         path: 'nouveaufournisseur',
         component: NouveauClientFournisseurComponent
+      },
+      {
+        path: 'commandFournisseur',
+        component: PageCommandeClientFounisseurComponent
       }
     ]
   }
