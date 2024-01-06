@@ -20,6 +20,8 @@ import { DetailsMouvementDeSotckComponent } from './Composants/details-mouvement
 import { DetailsClientFournisseurComponent } from './Composants/details-client-fournisseur/details-client-fournisseur.component';
 import { PageClientComponent } from './Pages/Clients/page-client/page-client.component';
 import { PageFounisseurComponent } from './Pages/Fournisseurs/page-founisseur/page-founisseur.component';
+import { NouveauClientFournisseurComponent } from './Composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
+import { DetailsCommandClientFournisseurComponent } from './Composants/details-command-client-fournisseur/details-command-client-fournisseur.component';
 
 
 
@@ -43,6 +45,8 @@ import { PageFounisseurComponent } from './Pages/Fournisseurs/page-founisseur/pa
     DetailsClientFournisseurComponent,
     PageClientComponent,
     PageFounisseurComponent,
+    NouveauClientFournisseurComponent,
+    DetailsCommandClientFournisseurComponent,
   ],
   imports: [
     BrowserModule,
