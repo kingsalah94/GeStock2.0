@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-page-commande-client-founisseur',
@@ -6,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-commande-client-founisseur.component.css']
 })
 export class PageCommandeClientFounisseurComponent implements OnInit {
+  constructor(private router: Router) { }
 
-  constructor() { }
+
+nouvelCommande():void {
+this.router.navigate(['nouvellCommandClient']);
+}
+
 
   ngOnInit(): void {
   }

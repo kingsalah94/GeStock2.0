@@ -11,6 +11,9 @@ import { PageClientComponent } from './Pages/Clients/page-client/page-client.com
 import { PageFounisseurComponent } from './Pages/Fournisseurs/page-founisseur/page-founisseur.component';
 import { NouveauClientFournisseurComponent } from './Composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
 import { PageCommandeClientFounisseurComponent } from './Pages/MouvementDeStock/page-commande-client-founisseur/page-commande-client-founisseur.component';
+import { NouvellCmdCltFrsComponent } from './Composants/nouvell-cmd-clt-frs/nouvell-cmd-clt-frs.component';
+import { PageCategorieComponent } from './Pages/Categories/page-categorie/page-categorie.component';
+import { NouvellCategorieComponent } from './Pages/Categories/nouvell-categorie/nouvell-categorie.component';
 
 const routes: Routes = [
   {
@@ -54,6 +57,10 @@ const routes: Routes = [
         component: PageCommandeClientFounisseurComponent
       },
       {
+        path: 'nouvellCommandClient',
+        component: NouvellCmdCltFrsComponent
+      },
+      {
         path: 'fournisseur',
         component: PageFounisseurComponent
       },
@@ -64,6 +71,18 @@ const routes: Routes = [
       {
         path: 'commandFournisseur',
         component: PageCommandeClientFounisseurComponent
+      },
+      {
+        path: 'nouvellCommandFournisseur',
+        component: NouvellCmdCltFrsComponent
+      },
+      {
+        path: 'categories',
+        component: PageCategorieComponent
+      },
+      {
+        path: 'nouvelcategory',
+        component: NouvellCategorieComponent
       }
     ]
   }

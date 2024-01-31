@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-page-founisseur',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageFounisseurComponent implements OnInit {
 
-  constructor() { }
+
+
+  constructor(private router: Router) { }
+
+nouvelFounisseur(): void {
+this.router.navigate(['nouveaufournisseur']);
+}
 
   ngOnInit(): void {
   }

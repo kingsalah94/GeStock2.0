@@ -1,0 +1,100 @@
+<div class="col p-3 m-3">
+    <!-- Foms -->
+    <div class="clo-md-12">
+        <div class="col-md-12 mb-3">.
+            <h2>
+                Nouvelle Commande
+            </h2>
+        </div>
+        <div class="row p-3 custom-border">
+            <div class="col-md-5 border-right">
+                <form action="">
+                    <div class="mb-3 form-group">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Code Commande"
+                        />
+                    </div>
+                    <div class="mb-3 form-group">
+                        <input
+                            type="date"
+                            class="form-control"
+                            placeholder="Date Commande"
+                        />
+                    </div>
+                    <select class="form-control" name="" id="">
+                        <option value="">Selectionner un Client</option>
+                        <option value="">C1</option>
+                        <option value="">C2</option>
+                        <option value="">C3</option>
+                        <option value="">C4</option>
+                    </select>
+                    
+                </form>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-md-1"><i class="fas fa-info-circle blue-color"></i></div>
+                        <div class="col-md-11">Nom</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"><i class="fas fa-info-circle blue-color"></i></div>
+                        <div class="col-md-11">Prenom</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"><i class="fas fa-phone-alt blue-color"></i></div>
+                        <div class="col-md-11">003 453 45 34 223 4554</div>
+                    </div>
+                     <div class="row">
+                        <div class="col-md-1"><i class="fas fa-hourglass-start blue-color"></i></div>
+                        <div class="col-md-11">EN PREPARATION</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-center p-2">
+                <img src="assets\product-icon-png.png" class="rounded-circle" width="150px" height="150px" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2 p-3 custom-border">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Code Article">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Quantite">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Prix Unitaire">
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-success"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="row mt-2 p-3 custom-border" style="max-height: 300px; overflow-y: scroll;">
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+        <app-details-commande></app-details-commande>
+    </div>
+    <div class="row mt-2 p-3 custom-border">
+        <div class="col-md-12 text-end">
+            <h3>Total de la commande: 139.5</h3> 
+        </div>
+    </div>
+    <!-- Buttons -->
+    <div class="col-md-12 text-end p-3 mt-2">
+        <button type="button" class="btn btn-danger me-4"><i class="fas fa-cancel"></i>&nbsp;Annuler</button>
+        <button type="button" class="btn btn-primary"><i class="fas fa-save"></i>&nbsp;Enregistrer</button>
+    </div>
+</div>

@@ -24,6 +24,10 @@ import { NouveauClientFournisseurComponent } from './Composants/nouveau-client-f
 import { DetailsCommandClientFournisseurComponent } from './Composants/details-command-client-fournisseur/details-command-client-fournisseur.component';
 import { DetailsCommandeComponent } from './Composants/details-commande/details-commande.component';
 import { PageCommandeClientFounisseurComponent } from './Pages/MouvementDeStock/page-commande-client-founisseur/page-commande-client-founisseur.component';
+import { NouvellCmdCltFrsComponent } from './Composants/nouvell-cmd-clt-frs/nouvell-cmd-clt-frs.component';
+import { PageCategorieComponent } from './Pages/Categories/page-categorie/page-categorie.component';
+import { NouvellCategorieComponent } from './Pages/Categories/nouvell-categorie/nouvell-categorie.component';
+import { DetailsCategoryComponent } from './Composants/details-category/details-category.component';
 
 
 
@@ -51,6 +55,10 @@ import { PageCommandeClientFounisseurComponent } from './Pages/MouvementDeStock/
     DetailsCommandClientFournisseurComponent,
     DetailsCommandeComponent,
     PageCommandeClientFounisseurComponent,
+    NouvellCmdCltFrsComponent,
+    PageCategorieComponent,
+    NouvellCategorieComponent,
+    DetailsCategoryComponent,
   ],
   imports: [
     BrowserModule,
