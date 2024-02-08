@@ -14,6 +14,10 @@ import { PageCommandeClientFounisseurComponent } from './Pages/MouvementDeStock/
 import { NouvellCmdCltFrsComponent } from './Composants/nouvell-cmd-clt-frs/nouvell-cmd-clt-frs.component';
 import { PageCategorieComponent } from './Pages/Categories/page-categorie/page-categorie.component';
 import { NouvellCategorieComponent } from './Pages/Categories/nouvell-categorie/nouvell-categorie.component';
+import { PageUtilisateurComponent } from './Pages/Utilisateurs/page-utilisateur/page-utilisateur.component';
+import { NouvellUtilisaterComponent } from './Pages/Utilisateurs/nouvell-utilisater/nouvell-utilisater.component';
+import { PageProfilComponent } from './Pages/Profil/page-profil/page-profil.component';
+import { ChangeMotDePasseComponent } from './Pages/Profil/change-mot-de-passe/change-mot-de-passe.component';
 
 const routes: Routes = [
   {
@@ -83,6 +87,22 @@ const routes: Routes = [
       {
         path: 'nouvelcategory',
         component: NouvellCategorieComponent
+      },
+      {
+        path: 'utilisateurs',
+        component: PageUtilisateurComponent
+      },
+      {
+        path: 'nouvellUtilisateur',
+        component: NouvellUtilisaterComponent
+      },
+      {
+        path: 'profil',
+        component: PageProfilComponent
+      },
+      {
+        path: 'changemotdepasse',
+        component: ChangeMotDePasseComponent
       }
     ]
   }

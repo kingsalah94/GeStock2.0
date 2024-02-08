@@ -28,6 +28,11 @@ import { NouvellCmdCltFrsComponent } from './Composants/nouvell-cmd-clt-frs/nouv
 import { PageCategorieComponent } from './Pages/Categories/page-categorie/page-categorie.component';
 import { NouvellCategorieComponent } from './Pages/Categories/nouvell-categorie/nouvell-categorie.component';
 import { DetailsCategoryComponent } from './Composants/details-category/details-category.component';
+import { PageUtilisateurComponent } from './Pages/Utilisateurs/page-utilisateur/page-utilisateur.component';
+import { DetailsUtilisateursComponent } from './Composants/details-utilisateurs/details-utilisateurs.component';
+import { NouvellUtilisaterComponent } from './Pages/Utilisateurs/nouvell-utilisater/nouvell-utilisater.component';
+import { PageProfilComponent } from './Pages/Profil/page-profil/page-profil.component';
+import { ChangeMotDePasseComponent } from './Pages/Profil/change-mot-de-passe/change-mot-de-passe.component';
 
 
 
@@ -59,6 +64,11 @@ import { DetailsCategoryComponent } from './Composants/details-category/details-
     PageCategorieComponent,
     NouvellCategorieComponent,
     DetailsCategoryComponent,
+    PageUtilisateurComponent,
+    DetailsUtilisateursComponent,
+    NouvellUtilisaterComponent,
+    PageProfilComponent,
+    ChangeMotDePasseComponent,
   ],
   imports: [
     BrowserModule,
